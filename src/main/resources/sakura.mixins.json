@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "dev.slmpc.sakura.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+      "MinecraftClientMixin",
+      "chat.ChatHudMixin",
+      "chat.ChatHudLineMixin",
+      "input.KeyboardMixin",
+      "gui.InGameHudMixin",
+      "graphics.GameRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
